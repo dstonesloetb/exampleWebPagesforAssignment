@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction Example</title>
+    <style>
+        /* Basic styling to make the example more visually appealing */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            margin: -20px -20px 20px -20px;
+            border-radius: 8px 8px 0 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background-color: yellow;
+            padding: 2px 4px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin: 20px -20px -20px -20px;
+            border-radius: 0 0 8px 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to HTML Learning</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#elements">Elements</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="introduction">
+                <h2>Introduction to HTML</h2>
+                <p>This is a practical example demonstrating the HTML concepts covered in our introduction guide. HTML (HyperText Markup Language) is the standard markup language for creating web pages.</p>
+                
+                <p>This page showcases various HTML elements including headings, paragraphs, links, images, and lists. Notice how the <span class="highlight">highlighted text</span> uses a span element with a CSS class.</p>
+            </section>
+
+            <section id="elements">
+                <h2>HTML Elements in Action</h2>
+                
+                <h3>Text and Paragraphs</h3>
+                <p>This paragraph demonstrates how text content is structured in HTML. You can include <strong>bold text</strong> and <em>italic text</em> for emphasis.</p>
+                
+                <h3>Links</h3>
+                <p>Here are some useful links for learning more about web development:</p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Documentation</a></li>
+                    <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+                    <li><a href="https://html.spec.whatwg.org/" target="_blank">HTML Living Standard</a></li>
+                </ul>
+
+                <h3>Images</h3>
+                <p>Below is an example of how to embed an image (using a placeholder since we don't have an actual image file):</p>
+                <img src="https://via.placeholder.com/400x200/4CAF50/white?text=HTML+Example+Image" alt="Placeholder image demonstrating HTML img element" width="400" height="200">
+                
+                <h3>Lists</h3>
+                <p>Here's an unordered list of HTML concepts we've covered:</p>
+                <ul>
+                    <li>Document structure</li>
+                    <li>Headings and paragraphs</li>
+                    <li>Links and navigation</li>
+                    <li>Images and media</li>
+                    <li>Lists and organization</li>
+                </ul>
+
+                <p>And here's an ordered list of steps to create your first HTML page:</p>
+                <ol>
+                    <li>Create a new file with .html extension</li>
+                    <li>Add the DOCTYPE declaration</li>
+                    <li>Structure your document with html, head, and body tags</li>
+                    <li>Add your content within the body</li>
+                    <li>Save and open in a web browser</li>
+                </ol>
+            </section>
+
+            <section id="examples">
+                <h2>Semantic HTML Example</h2>
+                <article>
+                    <h3>Understanding Web Development</h3>
+                    <p><strong>Published:</strong> September 16, 2025</p>
+                    <p>Web development is an exciting field that combines creativity with technical skills. HTML provides the foundation, CSS adds the styling, and JavaScript brings interactivity to life.</p>
+                    
+                    <aside>
+                        <h4>Did You Know?</h4>
+                        <p>The first website ever created is still online today! It was created by Tim Berners-Lee in 1991 and can be found at <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">info.cern.ch</a>.</p>
+                    </aside>
+                </article>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>If you have questions about HTML or web development, feel free to reach out:</p>
+                <address>
+                    Email: <a href="mailto:learning@example.com">learning@example.com</a><br>
+                    Website: <a href="https://www.example.com">www.example.com</a>
+                </address>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 HTML Learning Guide. Created with ❤️ for beginners.</p>
+        </footer>
+    </div>
+</body>
+</html>
