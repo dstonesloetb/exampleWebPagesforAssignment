@@ -1,5 +1,5 @@
 # Some Example Web Pages for Assignment
 
-# template
-# example
-# sample
+# html template
+# example web page
+# sample page and style sheet
