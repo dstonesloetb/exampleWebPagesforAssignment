@@ -2,5 +2,5 @@
 
 # html template
 # example web page
-# sample page and style sheet
+# sample page and mystyle.css
 # mock for assignment - index.html, style.css, placeholder.png 
